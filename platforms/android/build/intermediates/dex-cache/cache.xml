@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4a6602a297533fa3748dbe7cdb4653558aa35e7">
+        <dex dex="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-232548d597f130052047f980802473cb5768d190.jar" />
+    </item>
+    <item
+        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f9fdc851c2367afadb2de146e38d0248dcb6d067">
+        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-b48317c0afeae5f8039d94ebb407cd0604271e23.jar" />
+    </item>
+    <item
+        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/libs/sqlite4java.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6234e08ff4e1607ff5321da2579571f05ff778d">
+        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/sqlite4java-2a64aec95e5e8a558d70bdcb922265bf4f8046d3.jar" />
+    </item>
+    <item
+        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7e0aad7f85d658ad2c0a5b49c5d8771ba28a27a2">
+        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-fa9bcc756d0dead22cb06afb0a73e8a3ec59c3bc.jar" />
+    </item>
+    <item
+        jar="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7e0aad7f85d658ad2c0a5b49c5d8771ba28a27a2">
+        <dex dex="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-fc980e7ffb9a2d375d0a74685b710c68c96db050.jar" />
+    </item>
+
+</items>

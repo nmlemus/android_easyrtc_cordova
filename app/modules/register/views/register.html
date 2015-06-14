@@ -1,0 +1,35 @@
+<style>
+h1 {
+    text-align: center;
+}
+</style>
+<div layout="column" tabIndex="-1" role="main" flex>
+    <md-toolbar class="md-whiteframe-glow-z2">
+        <div class="md-toolbar-tools">
+            <ng-md-icon icon="reorder" style="fill: white" aria-label="Search"></ng-md-icon>
+
+            <span flex></span>
+
+            <ng-md-icon icon="search" style="fill: white" aria-label="Search"></ng-md-icon>
+            <ng-md-icon icon="settings" style="fill: white" aria-label="Search"></ng-md-icon>
+        </div>
+    </md-toolbar>
+</div>
+
+<div layout="column" tabIndex="-1" role="main" flex>
+	<md-content layout-padding class="autoScroll">
+		<h1>Please, enter your phone number</h1>
+		<section>
+            
+        </section>
+        <section layout="row" layout-sm="column" layout-align="center center">
+		<md-input-container md-no-float>
+      		<input type="text" international-phone-number ng-model="username">
+        </md-input-container>
+        </section>
+
+        <section layout="row" layout-sm="column" layout-align="center center">
+      		<md-button ng-click="createUser()" style="width: calc(100% - (16px));height:40px;" class="md-raised md-primary">Register</md-button>
+        </section> 
+	</md-content>
+</div>

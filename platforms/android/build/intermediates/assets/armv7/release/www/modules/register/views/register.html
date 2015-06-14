@@ -1,0 +1,36 @@
+<style>
+h1 {
+    text-align: center;
+}
+</style>
+
+<script>
+      $("#mobile-number").intlTelInput({
+        //allowExtensions: true,
+        //autoFormat: false,
+        //autoHideDialCode: false,
+        //autoPlaceholder: false,
+        //defaultCountry: "auto",
+        //ipinfoToken: "yolo",
+        //nationalMode: false,
+        //numberType: "MOBILE",
+        //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+        //preferredCountries: ['cn', 'jp'],
+        //preventInvalidNumbers: true,
+        utilsScript: "lib/intl-tel-input/lib/libphonenumber/build/utils.js"
+      });
+    </script>
+
+<div ng-controller= "RegisterController" layout="column" tabIndex="-1" role="main" flex>
+	<md-content layout-padding class="autoScroll">
+		<h1>Please, enter your phone number</h1>
+		<span></span>
+		<md-input-container md-no-float>
+      		<input id="mobile-number" ng-model="username" type="tel" class="form-control">      
+        </md-input-container>
+
+        <section layout="row" layout-sm="column" layout-align="center center">
+      		<md-button ng-click="createUser()" flex="20" class="md-raised md-primary">Register</md-button>
+    	</section> 
+	</md-content>
+</div>

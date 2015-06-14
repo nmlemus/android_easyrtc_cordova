@@ -1,0 +1,3 @@
+/home/noel/Goblob/Android_1.0.2/platforms/android/build/intermediates/classes/x86/release
+/home/noel/Goblob/Android_1.0.2/platforms/android/build/intermediates/pre-dexed/x86/release/classes-a942032ea7c06aa9f9a92d87920d19826b57125a.jar
+/home/noel/Goblob/Android_1.0.2/platforms/android/build/intermediates/pre-dexed/x86/release/classes-fc68e7afd57ade0aa0512649d107ff8a057172f1.jar

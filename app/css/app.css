@@ -1,0 +1,424 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white; }
+
+  .inputdemoIcons .inputIconDemo {
+  min-height: 48px; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.email {
+  color: green; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.name {
+  color: dodgerblue; }
+.inputdemoIcons md-input-container.md-input-invalid > md-icon.email, .inputdemoIcons md-input-container.md-input-invalid > md-icon.name {
+  color: red; }
+
+
+/* Toolbar with icons */
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white; }
+
+/* Tabs Area*/
+
+.tabsdemoStaticTabs md-tab-content {
+  padding: 25px; }
+  .tabsdemoStaticTabs md-tab-content:nth-child(1) {
+    background-color: #42A5F5; }
+  .tabsdemoStaticTabs md-tab-content:nth-child(2) {
+    background-color: #689F38; }
+  .tabsdemoStaticTabs md-tab-content:nth-child(3) {
+    background-color: #26C6DA; }
+.tabsdemoStaticTabs .after-tabs-area > span {
+  margin-top: 25px;
+  padding-right: 15px;
+  vertical-align: middle;
+  line-height: 30px;
+  height: 35px; }
+.tabsdemoStaticTabs .after-tabs-area > md-checkbox {
+  margin-top: 26px;
+  margin-left: 0; }
+
+
+/* Contact List Area*/
+
+
+
+.listdemoListControls md-divider {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+
+
+
+/* Toolbar area */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
+md-toolbar h1 {
+  margin: auto;
+}
+
+/* Sidenav area */
+
+md-list .md-button {
+  color: inherit;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+  md-list .md-button.selected {
+    color: #03a9f4;
+  }
+
+  md-sidenav  md-list {
+    padding: 0px 0px 8px 0px;
+  }
+
+
+/* Primary content area */
+
+#content {
+  overflow: hidden;
+}
+
+#content  {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+#content .md-button.share {
+  background-color: transparent;
+  border: none;
+  width: 48px;
+  height: 48px;
+  margin: 8px auto 16px 0;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+#content md-icon.avatar {
+  margin-top: 10px;
+}
+
+#content .md-button.share > md-icon {
+  fill:black;
+  width:36px;
+  height:36px;
+}
+
+md-button.menuBtn > md-icon {
+  fill:white;
+  width:24px;
+  height:24px;
+}
+
+#content .md-button.share:active > md-icon {
+  background-color: #dadada;
+  border-radius: 75%;
+  padding:4px;
+  transition: all 100ms ease-out 30ms;
+}
+
+#content img {
+  display: block;
+  height: auto;
+  max-width: 500px;
+}
+
+/* Utils */
+
+.content-wrapper {
+  position: relative;
+}
+
+/* Typography support coming in 0.8.0 */
+
+md-toolbar h1 {
+  font-size: 1.250em;
+  font-weight: 400;
+}
+
+.avatar {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0px;
+  vertical-align: middle;
+  zoom:0.70;
+  transform: translateZ(0);
+  -webkit-transform: scale(0.70);
+  -moz-transform:scale(0.70);
+}
+
+
+md-bottom-sheet  md-icon {
+  margin-right:20px;
+}
+
+span.name {
+  font-weight: bold;
+  font-size:1.1em;
+  padding-left:5px;
+}
+
+
+
+.transit {
+    transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, transform 1s;
+    -moz-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: left 1s, top 1s, right 1s, bottom 1s, width 1s, height 1s,-o-transform 1s;
+}
+
+.hidden {
+    background-color: transparent;
+    border-color: 2px solid blue;
+}
+
+.boxCommon {
+    position:absolute;
+}
+
+.closeButton {
+    display: none; /* hide the easyApp's close button because we have our own */
+}
+
+.thumbCommon {
+    z-index:2;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#controlArea {
+    background-color: #ff8000;
+}
+
+body {
+    margin-left:0px;
+    margin-top:0px;
+}
+
+#killButton {
+    opacity:0.7;
+}
+
+#killButton:hover {
+    opacity:1.0;
+}
+
+#muteButton {
+    opacity:0.7;
+}
+
+#muteButton:hover {
+    opacity:1.0;
+}
+
+#textentryBox {
+    border:2px solid #a0ffa0;
+    border-radius:10px;
+    z-index:5;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #000000;
+    font-family: 'Courier New',Courier,monospace;
+}
+
+#textentryField {
+    font-size:x-large;
+    margin: 20px;
+}
+
+#textentrySubmit {
+    font-size:larger;
+}
+
+#textentryCancel {
+    font-size:larger;
+}
+
+
+.dragndrop {
+
+}
+.dragndropStatus {
+    display: inline-block;
+}
+.connecting {
+    background-color: yellow;
+}
+.usesSockets {
+    background-color: pink;
+}
+.notConnected {
+    visibility:hidden;
+}
+
+.notConnected:hover {
+    margin: 1px;
+    border-width: 3px;
+}
+.connected:hover {
+    margin: 1px;
+    border-width:3px;
+}
+.connectButton {
+    padding:2em;
+}
+/*
+ *  These styles define the appearance of the default error dialog box.
+ */
+#easyrtcErrorDialog {
+    background-color: #ffe0e0;
+
+    position:fixed;
+    right: 10px;
+    top:20px;
+    z-index: 30;
+    opacity: 0.95;
+    padding: 0.5em;
+    border-radius:10px;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+}
+
+#easyrtcStatisticsDialog {
+    background-color: rgb(133, 164, 255);
+
+    position:fixed;
+    right: 10px;
+    top:20px;
+    z-index: 30;
+    opacity: 0.95;
+    padding: 0.5em;
+    border-radius:10px;
+    border-color: #0000ff;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+}
+
+
+#easyrtcMsgDialog {
+    background-color: rgb(133, 164, 255);
+
+    position:fixed;
+    left: 10px;
+    top:20px;
+    z-index: 30;
+    opacity: 0.95;
+    padding: 0.5em;
+    border-radius:10px;
+    border-color: #0000ff;
+    border-style: solid;
+    border-width: 1px;
+    -webkit-box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.9);
+}
+
+
+.easyrtcErrorDialog_title {
+    position:static;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    clear:both;
+}
+
+.easyrtcStatisticsDialog_title {
+    position:static;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    clear:both;
+}
+
+.easyrtcMsgDialog_title {
+    position:static;
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    clear:both;
+}
+
+#easyrtcErrorDialog_body{
+    position:static;
+    height:150px;
+    overflow-y:auto;
+}
+
+#easyrtcMsgDialog_body{
+    position:static;
+    height:300px;
+    overflow-y:auto;
+}
+
+#easyrtcStatisticsDialog_body{
+    position:static;
+    height:300px;
+    overflow-y:auto;
+}
+
+.easyrtcErrorDialog_element {
+    position:static;
+    font-style: italic;
+    font-size: 12px;
+    width:300px;
+    margin-bottom: 0.5em;
+    clear: both;
+    float:left;
+}
+
+.easyrtcErrorDialog_okayButton {
+    position:static;
+    clear:both;
+    float:right;
+}
+
+.easyrtcMirror {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.easyrtc_closeButton {
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height:40px;
+    right: 0px;
+    top: 0px;
+    background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g stroke="#b0b0b0" stroke-width="7" ><g>		<path  d="M76.03,79.854c-0.979,0-1.958-0.373-2.704-1.12L21.184,26.592c-1.494-1.494-1.494-3.915,0-5.409c1.494-1.493,3.915-1.493,5.409,0l52.143,52.142c1.494,1.494,1.494,3.915,0,5.409C77.988,79.481,77.01,79.854,76.03,79.854z"/></g><g><path d="M23.888,79.854c-0.979,0-1.958-0.373-2.704-1.12c-1.494-1.494-1.494-3.915,0-5.409l52.142-52.142c1.493-1.493,3.915-1.493,5.409,0c1.494,1.494,1.494,3.915,0,5.409L26.593,78.734C25.846,79.481,24.867,79.854,23.888,79.854z"/></g></g><g fill="#000000"><g><path  d="M76.03,79.854c-0.979,0-1.958-0.373-2.704-1.12L21.184,26.592c-1.494-1.494-1.494-3.915,0-5.409c1.494-1.493,3.915-1.493,5.409,0l52.143,52.142c1.494,1.494,1.494,3.915,0,5.409C77.988,79.481,77.01,79.854,76.03,79.854z"/></g><g><path d="M23.888,79.854c-0.979,0-1.958-0.373-2.704-1.12c-1.494-1.494-1.494-3.915,0-5.409l52.142-52.142c1.493-1.493,3.915-1.493,5.409,0c1.494,1.494,1.494,3.915,0,5.409L26.593,78.734C25.846,79.481,24.867,79.854,23.888,79.854z"/></g></g></svg>');
+    opacity: 0.3;
+}
+
+.easyrtc_closeButton:hover {
+    opacity: 1;
+}
+
