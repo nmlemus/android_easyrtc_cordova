@@ -1,5 +1,11 @@
 TODO:
-1. Incorporar el International Telephone Input dentro de la aplicacion:
+1. Desde la pagina de inicio se debe verificar si existe un profile registrado, si es el caso, se debe hacer la consulta a la base de datos local para obtener el numero de telefono del mismo y pasarselo al homeController en la llamada a:
+
+$state.go("home", {phonenumber: $scope.name});
+
+
+
+2. Incorporar el International Telephone Input dentro de la aplicacion:
         http://jackocnr.com/intl-tel-input.html
         https://github.com/Bluefieldscom/intl-tel-input
         https://github.com/mareczek/international-phone-number
@@ -7,6 +13,7 @@ TODO:
 
 
 
+TERMINADO:
 
 
 Para lograr acceder al servicio desde la app local se hizo lo siguiente:
