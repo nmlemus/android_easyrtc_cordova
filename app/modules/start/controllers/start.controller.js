@@ -25,14 +25,14 @@ angular
 			      console.log("PRAGMA res: " + JSON.stringify(res));
 			    });
 
-			    tx.executeSql("select count(id) as cnt from profile_table;", [], function(tx, res) {
+			    tx.executeSql("select count(id) as cnt, profile_name from profile_table;", [], function(tx, res) {
 			      console.log("res.rows.length: " + res.rows.length + " -- should be 1");
 			      console.log("res.rows.item(0).cnt: " + res.rows.item(0).cnt + " -- should be 1");
 
 			      if (res.rows.item(0).cnt === 0){
 			      	$state.go("register");	
 			      }else{
-			      	$state.go("home");
+			      	$state.go("home", {phonenumber:res.rows.item(0).profile_name});
 			      }
 
 			    }, function(e) {

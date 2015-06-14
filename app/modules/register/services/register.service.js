@@ -9,6 +9,6 @@ angular
     .module('register')
     .factory('Profiles', ['$resource',
         function($resource) {
-            return $resource('https://10.0.0.108:3000/userused', {}, {update: {method: 'PUT'}});    
+            return $resource('https://goblob.com/userused', {}, {update: {method: 'PUT'}});    
         }
     ]);

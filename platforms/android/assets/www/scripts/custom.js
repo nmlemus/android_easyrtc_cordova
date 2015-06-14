@@ -125,7 +125,7 @@ angular
 'use strict';
 angular.module('core').factory('Users', ['$resource',
     function($resource) {
-        return $resource('http://10.0.0.108:3000/profiles', null, {
+        return $resource('https://goblob.com/profiles', null, {
         	'update': {method: 'PUT'}});
     }
 ]);
@@ -135,7 +135,7 @@ angular
     .module('register')
     .factory('Profiles', ['$resource',
         function($resource) {
-            return $resource('https://10.0.0.108:3000/userused', {}, {update: {method: 'PUT'}});    
+            return $resource('https://goblob.com/userused', {}, {update: {method: 'PUT'}});    
         }
     ]);
 'use strict';
@@ -188,8 +188,8 @@ angular
 
             if(phonenumber) {
 
-                var SERVER_IP = '10.0.0.108';
-                var SERVER_PORT = 3000;
+                var SERVER_IP = 'goblob.com';
+                var SERVER_PORT = 443;
 
                 easyrtc.setSocketUrl("https://" + SERVER_IP + ":" + SERVER_PORT, {
                     host: SERVER_IP
@@ -622,14 +622,14 @@ angular
 			      console.log("PRAGMA res: " + JSON.stringify(res));
 			    });
 
-			    tx.executeSql("select count(id) as cnt from profile_table;", [], function(tx, res) {
+			    tx.executeSql("select count(id) as cnt, profile_name from profile_table;", [], function(tx, res) {
 			      console.log("res.rows.length: " + res.rows.length + " -- should be 1");
 			      console.log("res.rows.item(0).cnt: " + res.rows.item(0).cnt + " -- should be 1");
 
 			      if (res.rows.item(0).cnt === 0){
 			      	$state.go("register");	
 			      }else{
-			      	$state.go("home");
+			      	$state.go("home", {phonenumber:res.rows.item(0).profile_name});
 			      }
 
 			    }, function(e) {
