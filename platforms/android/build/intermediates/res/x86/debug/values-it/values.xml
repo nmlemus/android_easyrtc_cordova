@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_ui_strings.xml -->
     <eat-comment/>
     <string name="accessibility_date_picker_month">"Mese"</string>
     <string name="accessibility_date_picker_week">"Settimana"</string>
@@ -12,11 +12,11 @@
     <string name="accessibility_time_picker_milli">"Millisecondo"</string>
     <string name="accessibility_time_picker_minute">"Minuto"</string>
     <string name="accessibility_time_picker_second">"Secondo"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_content_strings.xml -->
     <eat-comment/>
     <string name="actionbar_share">"Condividi"</string>
     <string name="actionbar_web_search">"Ricerca Google"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_ui_strings.xml -->
     <eat-comment/>
     <string name="color_picker_button_black">"Nero"</string>
     <string name="color_picker_button_blue">"Blu"</string>
@@ -40,24 +40,24 @@
     <string name="date_picker_dialog_title">"Imposta data"</string>
     <string name="date_time_picker_dialog_title">"Imposta data e ora"</string>
     <string name="low_memory_error">"Impossibile completare l\'operazione precedente. Memoria insufficiente."</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_content_strings.xml -->
     <eat-comment/>
     <string name="media_player_error_button">"OK"</string>
     <string name="media_player_error_text_invalid_progressive_playback">"Spiacenti, questo video non può essere visualizzato in streaming su questo dispositivo."</string>
     <string name="media_player_error_text_unknown">"Spiacenti, impossibile riprodurre il video."</string>
     <string name="media_player_error_title">"Impossibile riprodurre il video"</string>
     <string name="media_player_loading_video">"Caricamento video"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_ui_strings.xml -->
     <eat-comment/>
     <string name="month_picker_dialog_title">"Imposta mese"</string>
     <string name="opening_file_error">"Impossibile aprire file selez."</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_content_strings.xml -->
     <eat-comment/>
     <string name="profiler_error_toast">"Impossibile avviare profiler"</string>
     <string name="profiler_no_storage_toast">"Impossibile avviare profiler perché la memoria esterna non è pronta"</string>
     <string name="profiler_started_toast">"Profiler avviato"</string>
     <string name="profiler_stopped_toast">"Profiler ha finito. I risultati sono in %1$s."</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-it/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-it/android_ui_strings.xml -->
     <eat-comment/>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

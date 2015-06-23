@@ -49,4 +49,4 @@
             android:text="@string/color_picker_button_more" />
     </FrameLayout>
 </LinearLayout>
-<!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/layout-v17/color_picker_dialog_content.xml -->
+<!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/layout-v17/color_picker_dialog_content.xml -->

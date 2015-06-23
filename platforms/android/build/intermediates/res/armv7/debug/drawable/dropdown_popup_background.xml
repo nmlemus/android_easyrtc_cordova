@@ -10,4 +10,4 @@
     <item android:state_above_anchor="true"
         android:drawable="@drawable/dropdown_popup_background_up" />
     <item android:drawable="@drawable/dropdown_popup_background_down" />
-</selector><!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/drawable/dropdown_popup_background.xml -->
+</selector><!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/drawable/dropdown_popup_background.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_ui_strings.xml -->
     <eat-comment/>
     <string name="accessibility_date_picker_month">"Mwezi"</string>
     <string name="accessibility_date_picker_week">"Juma"</string>
@@ -12,11 +12,11 @@
     <string name="accessibility_time_picker_milli">"Milisekunde"</string>
     <string name="accessibility_time_picker_minute">"Dakika"</string>
     <string name="accessibility_time_picker_second">"Sekunde"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_content_strings.xml -->
     <eat-comment/>
     <string name="actionbar_share">"Shiriki"</string>
     <string name="actionbar_web_search">"Tafuta kwenye wavuti"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_ui_strings.xml -->
     <eat-comment/>
     <string name="color_picker_button_black">"Nyeusi"</string>
     <string name="color_picker_button_blue">"Samawati"</string>
@@ -40,24 +40,24 @@
     <string name="date_picker_dialog_title">"Weka tarehe"</string>
     <string name="date_time_picker_dialog_title">"Weka tarehe na saa"</string>
     <string name="low_memory_error">"Imeshindwa kukamilisha jukumu lililotangulia kwa sababu ya nafasi ndogo ya hifadhi"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_content_strings.xml -->
     <eat-comment/>
     <string name="media_player_error_button">"Sawa"</string>
     <string name="media_player_error_text_invalid_progressive_playback">"Samahani, video hii sio sahihi kutiririshwa kwenye kifaa hiki."</string>
     <string name="media_player_error_text_unknown">"Samahani, video hii haiwezi kuchezwa."</string>
     <string name="media_player_error_title">"Haiwezi kucheza video"</string>
     <string name="media_player_loading_video">"Inapakia video"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_ui_strings.xml -->
     <eat-comment/>
     <string name="month_picker_dialog_title">"Weka mwezi"</string>
     <string name="opening_file_error">"Imeshindwa kufungua faili iliyochaguliwa"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_content_strings.xml -->
     <eat-comment/>
     <string name="profiler_error_toast">"Imeshindwa kuanzisha kihoji rejesta"</string>
     <string name="profiler_no_storage_toast">"Haiwezi kuanzisha kihoji rejesta kwa sababu hifadhi ya nje haiko tayari"</string>
     <string name="profiler_started_toast">"Kihoji rejesta kimeanzishwa"</string>
     <string name="profiler_stopped_toast">"Kihoji rejesta kimemaliza. Matokeo yako katika %1$s."</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sw/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sw/android_ui_strings.xml -->
     <eat-comment/>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

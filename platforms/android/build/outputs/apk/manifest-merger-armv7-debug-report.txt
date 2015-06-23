@@ -61,7 +61,7 @@ ADDED from AndroidManifest.xml:8:17
 		ADDED from AndroidManifest.xml:8:27
 uses-sdk
 ADDED from AndroidManifest.xml:12:5
-MERGED from org.xwalk:xwalk_core_library_beta:13.42.319.11:6:5
+MERGED from org.xwalk:xwalk_core_library_beta:13.42.319.12:6:5
 MERGED from android:CordovaLib:unspecified:debug:25:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:12:42

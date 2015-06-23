@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_ui_strings.xml -->
     <eat-comment/>
     <string name="accessibility_date_picker_month">"Mesiac"</string>
     <string name="accessibility_date_picker_week">"Týždeň"</string>
@@ -12,11 +12,11 @@
     <string name="accessibility_time_picker_milli">"Milisekunda"</string>
     <string name="accessibility_time_picker_minute">"Minúta"</string>
     <string name="accessibility_time_picker_second">"Sekunda"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_content_strings.xml -->
     <eat-comment/>
     <string name="actionbar_share">"Zdieľať"</string>
     <string name="actionbar_web_search">"Vyhľadávanie na webe"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_ui_strings.xml -->
     <eat-comment/>
     <string name="color_picker_button_black">"Čierna"</string>
     <string name="color_picker_button_blue">"Modrá"</string>
@@ -40,24 +40,24 @@
     <string name="date_picker_dialog_title">"Nastavenie dátumu"</string>
     <string name="date_time_picker_dialog_title">"Nastavenie dátumu a času"</string>
     <string name="low_memory_error">"Predchádzajúca operácia sa nedokončila z dôvodu nedostatku pamäte"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_content_strings.xml -->
     <eat-comment/>
     <string name="media_player_error_button">"OK"</string>
     <string name="media_player_error_text_invalid_progressive_playback">"Je nám to ľúto, ale toto video sa nedá streamovať do tohto zariadenia."</string>
     <string name="media_player_error_text_unknown">"Je nám to ľúto, ale toto video sa nedá prehrať."</string>
     <string name="media_player_error_title">"Video sa nedá prehrať"</string>
     <string name="media_player_loading_video">"Načítanie videa"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_ui_strings.xml -->
     <eat-comment/>
     <string name="month_picker_dialog_title">"Nastavenie mesiaca"</string>
     <string name="opening_file_error">"Vybr. súbor sa nepodar. otvoriť"</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_content_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_content_strings.xml -->
     <eat-comment/>
     <string name="profiler_error_toast">"Spustenie profilovača zlyhalo"</string>
     <string name="profiler_no_storage_toast">"Profilovač sa nedá spustiť, pretože externý ukladací priestor nie je pripravený"</string>
     <string name="profiler_started_toast">"Profilovač bol spustený"</string>
     <string name="profiler_stopped_toast">"Profilovač bol ukončený. Výsledky sa uložili do súboru %1$s."</string>
-    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/values-sk/android_ui_strings.xml -->
+    <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/values-sk/android_ui_strings.xml -->
     <eat-comment/>
     <string name="time_picker_dialog_am">"AM"</string>
     <string name="time_picker_dialog_hour_minute_separator">":"</string>

@@ -83,7 +83,9 @@ PARA QUE AL COMPILAR SE COPIEN TODOS LOS JS DE LA CARPETA app/js HACIA LA APP DE
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'index.html',
-                        'js/*',
+                        'js/easyrtc.js',
+                        'js/socket.io.js',
+                        'js/utils.js',
                         'modules/*/views/*.html',
                         'img/{,*/}*.{webp}',
                         'fonts/*'

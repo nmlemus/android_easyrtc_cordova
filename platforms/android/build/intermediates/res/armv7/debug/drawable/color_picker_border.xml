@@ -9,4 +9,4 @@
 
     <stroke android:width="1px" android:color="@color/color_picker_border_color" />
     <solid android:color="@color/color_picker_background_color"/>
-</shape><!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/res/drawable/color_picker_border.xml -->
+</shape><!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/res/drawable/color_picker_border.xml -->
