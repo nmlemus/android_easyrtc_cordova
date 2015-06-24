@@ -356,6 +356,7 @@ module.exports = function(grunt) {
                         'index.html',
                         'js/easyrtc.js',
                         'js/socket.io.js',
+                        'js/moment.js',
                         'js/utils.js',
                         'modules/*/views/*.html',
                         'img/{,*/}*.{webp}',

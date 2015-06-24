@@ -121,3 +121,7 @@ uses-permission#android.permission.RECORD_VIDEO
 ADDED from AndroidManifest.xml:25:5
 	android:name
 		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22

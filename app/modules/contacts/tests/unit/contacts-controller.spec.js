@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Controller: ChatroutesController', function() {
+describe('Controller: ContactsController', function() {
 
     //Load the ui.router module
     beforeEach(module('ui.router'));
     //Load the module
-    beforeEach(module('chat'));
+    beforeEach(module('contacts'));
 
-    var ChatroutesController,
+    var ContactsController,
         scope;
 
     beforeEach(inject(function($controller, $rootScope) {
         scope = $rootScope.$new();
-        ChatroutesController = $controller('ChatroutesController', {
+        ContactsController = $controller('ContactsController', {
         $scope: scope
         });
     }));

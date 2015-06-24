@@ -67,6 +67,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="https://goblob.com/*" />
+    <allow-navigation href="https://10.0.0.104:3000/*" />
 </widget>
 <!-- From: file:/home/noel/Goblob/Android_1.0.3/platforms/android/res/xml/config.xml -->

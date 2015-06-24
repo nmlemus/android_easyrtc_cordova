@@ -92,3 +92,6 @@ PARA QUE AL COMPILAR SE COPIEN TODOS LOS JS DE LA CARPETA app/js HACIA LA APP DE
                     ]
 
 AGREGANDO EN src 'js/*'. SOLO SERIA NECESARIO EL SOCKET Y EL EASYRTC DE MOMENTO, ASI QUE SE PUEDEN PONER SOLO ESOS DOS.
+
+Hubo que agregarle el permiso de acceso a la camara manualmente en el AndroidManifest.xml de esta manera:
+<uses-permission android:name="android.permission.CAMERA" />

@@ -18,14 +18,14 @@ angular
              *
              * Define routes and the associated paths
              *
-             * - When the state is `'chatroutes'`, route to chatroutes
+             * - When the state is `'chat'`, route to chat
              *
             */
             $stateProvider
-                .state('chatroutes', {
-                    url: '/chatroutes',
-                    templateUrl: 'modules/chat/views/chatroutes.html',
-                    controller: 'ChatroutesController'
+                .state('chat', {
+                    url: '/chat',
+                    templateUrl: 'modules/chat/views/chat.html',
+                    controller: 'ChatController'
                 });
         }
     ]);

@@ -1,0 +1,121 @@
+
+<style>
+    h1 {
+        text-align: center;
+    }
+    div#welcome {
+        height: 100vh;
+        background: black;
+    }
+
+    .back {
+        left: 0px;
+        position: relative;
+        top: 5px;
+        height: 20px;
+        padding-right:2px;
+        padding-left:2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font:normal 35px arial;
+        color:white;
+        font-weight: 500;
+    }
+    .personname {
+        left: 0px;
+        position: relative;
+        top: 2px;
+        height: 20px;
+        padding-right:2px;
+        padding-left:2px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font:normal 20px arial;
+        color:white;
+        font-weight: 500;
+    }
+
+    .notification-count {
+        right: 9px;
+        position: absolute;
+        top: 3px;
+        height: 18px;
+        background:red;
+        padding-right:1px;
+        padding-left:1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border:solid 1px #9daccc;
+        font:normal 12px arial;
+        color:white;
+        font-weight: 700;
+    }
+
+
+    .timercount {
+        right: 9px;
+        position: absolute;
+        top: 3px;
+        height: 18px;
+        padding-right:1px;
+        padding-left:1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font:normal 12px arial;
+        color:#000000;
+        font-weight: 700;
+    }
+
+
+    .buttondemoBasicUsage section {
+        background: #f7f7f7;
+        border-radius: 3px;
+        text-align: center;
+        margin: 1em;
+        position: relative !important;
+        padding-bottom: 10px; }
+    .buttondemoBasicUsage md-content {
+        margin-right: 7px; }
+    .buttondemoBasicUsage section .md-button {
+        margin-top: 16px;
+        margin-bottom: 16px; }
+    .buttondemoBasicUsage .label {
+        position: absolute;
+        bottom: 5px;
+        left: 7px;
+        font-size: 14px;
+        opacity: 0.54; }
+
+</style>
+
+
+
+
+
+<div style="display: {{viewcall}}">
+
+    <div id="welcome">
+        <md-toolbar class="md-theme-light">
+            <div tool layout horizontal flex>
+                <h1 style="font-size: 18px;font-weight: bold;right: 10px;";>
+                         <img src={{person.img}} style="height: 50px;width: 50px;"/>
+                        <span class="personname">{{person.name}}</span>
+                </h1>
+                <span flex></span>
+            </div>
+        </md-toolbar>
+
+
+        <md-content style="height: 86%;width: 100%;">
+            <span class="timercount">{{timercount}}</span>
+            <video layout horizontal id="callerAudio" style="display: none"></video>
+            <img src={{person.img}} style="height: calc(100% - (72px));width: calc(100% - (0px));"/>
+            <md-button class="md-warn md-raised md-hue-2" style="width: calc(100% - (16px));height:60px;" ng-click="hangup($event)">
+                <img src="img/icons/ic_call_end_white_48dp.png" style="z-index:3; height: 32px;width: 32px"
+                     alt="text button"/>
+            </md-button>
+        </md-content>
+
+    </div>
+
+</div>
