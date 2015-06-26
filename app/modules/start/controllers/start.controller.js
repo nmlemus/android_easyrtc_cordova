@@ -18,7 +18,7 @@ angular
   			$rootScope.db = window.sqlitePlugin.openDatabase({name: "goblob.db"});
 
 			  $rootScope.db.transaction(function(tx) {
-			     tx.executeSql('CREATE TABLE IF NOT EXISTS profile_table (id integer primary key, profile_name text, profile_status integer)');
+			     tx.executeSql('CREATE TABLE IF NOT EXISTS profile_table (id integer primary key, profile_name text, profile_status text)');
 
 			    // demonstrate PRAGMA:
 			    $rootScope.db.executeSql("pragma table_info (profile_table);", [], function(res) {

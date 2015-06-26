@@ -185,7 +185,7 @@ angular
 'use strict';
 angular.module('core').factory('Users', ['$resource',
     function($resource) {
-        return $resource('http://10.0.0.104:3000/profiles', null, {
+        return $resource('https://goblob.com/profiles', null, {
         	'update': {method: 'PUT'}});
     }
 ]);
@@ -478,8 +478,8 @@ angular
 
             if($rootScope.phonenumber) {
 
-                var SERVER_IP = '10.0.0.104';
-                var SERVER_PORT = 3000;
+                var SERVER_IP = 'goblob.com';
+                var SERVER_PORT = 443;
 
                 easyrtc.setSocketUrl("https://" + SERVER_IP + ":" + SERVER_PORT, {
                     host: SERVER_IP

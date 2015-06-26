@@ -19,8 +19,8 @@ angular
 
             if($rootScope.phonenumber) {
 
-                var SERVER_IP = '10.0.0.104';
-                var SERVER_PORT = 3000;
+                var SERVER_IP = 'goblob.com';
+                var SERVER_PORT = 443;
 
                 easyrtc.setSocketUrl("https://" + SERVER_IP + ":" + SERVER_PORT, {
                     host: SERVER_IP

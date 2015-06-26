@@ -425,6 +425,7 @@ var Easyrtc = function() {
         var cookieId = "easyrtcsid";
         /** @private */
         var username = null;
+        var calltype = null;
         /** @private */
         var loggingOut = false;
         /** @private */
@@ -3148,6 +3149,9 @@ var Easyrtc = function() {
 
 
         this.question = function(easyrtcid, msgData, callback, errorCallback) {
+            if(msgData.call){
+                calltype = msgData.call;
+            }
             sendSignalling(easyrtcid, "question", msgData,
                 function(msgType, msgData) {
                     callback(msgData);
@@ -3161,6 +3165,12 @@ var Easyrtc = function() {
                     }
                 }
             );
+        };
+
+
+
+        this.getCallType = function() {
+            return calltype;
         };
 
 
@@ -4667,17 +4677,21 @@ var Easyrtc = function() {
                     self.showError(msg.errorCode, msg.errorText);
                     break;
                 case "question":
-                    var confirm = self.dialogEasy.confirm()
+                    if(msgData.msg){
+                        var confirm = self.dialogEasy.confirm()
                         .title('Accept to room')
                         .content(caller+" "+msgData.msg)
                         .ok('Accept')
                         .cancel('Cancel')
 
-                    self.dialogEasy.show(confirm).then(function() {
-                        ackAcceptorFn(true);
-                    }, function() {
-                        ackAcceptorFn(false);
-                    });
+                        self.dialogEasy.show(confirm).then(function() {
+                           ackAcceptorFn(true);
+                        }, function() {
+                          ackAcceptorFn(false);
+                        });
+                    }else if(msgData.call){
+                        calltype = msgData.call;
+                    }
                     break;
                 default:
                     console.error("received unknown message type from server, msgType is " + msgType);

@@ -10,6 +10,10 @@ $state.go("home", {phonenumber: $scope.name});
         https://github.com/Bluefieldscom/intl-tel-input
         https://github.com/mareczek/international-phone-number
 
+3. Incorporar el icono de goblob en la lista de contacto del telefono, en todos aquellos contactos que usen goblob. Como mismo lo hacen whatsapp, telegram, waze.
+
+4. Incorporar tonos en todas las funcionalidades.
+
 
 
 

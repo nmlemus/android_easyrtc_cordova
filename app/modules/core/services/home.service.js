@@ -3,7 +3,7 @@
 //Rooms service used to communicate Rooms REST endpoints
 angular.module('core').factory('Users', ['$resource',
     function($resource) {
-        return $resource('http://10.0.0.104:3000/profiles', null, {
+        return $resource('https://goblob.com/profiles', null, {
         	'update': {method: 'PUT'}});
     }
 ]);
