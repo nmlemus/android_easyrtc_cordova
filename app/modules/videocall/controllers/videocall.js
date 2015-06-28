@@ -15,15 +15,20 @@ angular
             if(!$rootScope.phonenumber) {
                 $state.go("register");
             }
-            console.log("antes");
+
+            $rootScope.timeToMissing();
+
             $rootScope.video = document.getElementById('box1');
             $rootScope.selfVideo = document.getElementById('box0');
             $rootScope.fullpage = document.getElementById('fullpage');
-            console.log("despues");
 
             $scope.hangup = function(event) {
                 easyrtc.hangupAll();
-                easyrtc.getLocalStream().stop();
+                $rootScope.stopTimer();
+				if($rootScope.video.style.visibility != "visible")
+					easyrtc.question($rootScope.person.name, {call: 'missing'});
+                if(easyrtc.getLocalStream())
+                    easyrtc.getLocalStream().stop();
                 $state.go("contacts");
             }
 

@@ -295,6 +295,22 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/de.appplant.cordova.plugin.background-mode/www/background-mode.js",
+        "id": "de.appplant.cordova.plugin.background-mode.BackgroundMode",
+        "clobbers": [
+            "cordova.plugins.backgroundMode",
+            "plugin.backgroundMode"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "cordova.plugins.notification.local",
+            "plugin.notification.local"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -463,6 +479,8 @@ module.exports.metadata =
     "com.appgiraffe.plugins.applicationPreferences": "0.1.0",
     "cordova-plugin-whitelist": "1.0.1-dev",
     "cordova-sqlite-storage": "0.7.9",
+    "de.appplant.cordova.plugin.background-mode": "0.6.4",
+    "de.appplant.cordova.plugin.local-notification": "0.8.1",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA

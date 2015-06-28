@@ -16,9 +16,15 @@ angular
             }
             $rootScope.video = document.getElementById('callerAudio');
 
+            $rootScope.timeToMissing();
+
             $scope.hangup = function(event) {
                 easyrtc.hangupAll();
-                easyrtc.getLocalStream().stop();
+                $rootScope.stopTimer();
+				if($rootScope.video.style.visibility != "visible")
+					easyrtc.question($rootScope.person.name, {call: 'missing'});
+                if(easyrtc.getLocalStream())
+                    easyrtc.getLocalStream().stop();
                 $state.go("contacts");
             }
    }

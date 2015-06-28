@@ -13,6 +13,7 @@ angular
         function($scope, $state, $rootScope, $interval) {
             if(!$rootScope.phonenumber) {
                 $state.go("register");
+                return;
             }
 
             document.getElementById("message").onkeyup = function (e) {

@@ -92,13 +92,13 @@
 
 
 
-<div style="display: {{viewcall}}">
+<div>
 
     <div id="welcome">
         <md-toolbar class="md-theme-light">
             <div tool layout horizontal flex>
                 <h1 style="font-size: 18px;font-weight: bold;right: 10px;";>
-                         <img src={{person.img}} style="height: 50px;width: 50px;"/>
+                         <img ng-src={{person.img}} style="height: 50px;width: 50px;"/>
                         <span class="personname">{{person.name}}</span>
                 </h1>
                 <span flex></span>
@@ -109,7 +109,7 @@
         <md-content style="height: 86%;width: 100%;">
             <span class="timercount">{{timercount}}</span>
             <video layout horizontal id="callerAudio" style="display: none"></video>
-            <img src={{person.img}} style="height: calc(100% - (72px));width: calc(100% - (0px));"/>
+            <img ng-src={{person.img}} style="height: calc(100% - (72px));width: calc(100% - (0px));"/>
             <md-button class="md-warn md-raised md-hue-2" style="width: calc(100% - (16px));height:60px;" ng-click="hangup($event)">
                 <img src="img/icons/ic_call_end_white_48dp.png" style="z-index:3; height: 32px;width: 32px"
                      alt="text button"/>
