@@ -32,8 +32,7 @@ angular
             // Modify the currently displayed notification
             cordova.plugins.backgroundMode.configure({
 				title: 'Goblob',
-                text:'Running in background.',
-				silent: true
+                text:'Running in background.'
             });
         }, 5000);
     }
@@ -41,6 +40,18 @@ angular
 	
 
 }, false);
+
+
+
+
+document.addEventListener("resume", function() {
+    if (cordova.backgroundapp.resumeType == 'normal-launch') {
+		
+    } else if (cordova.backgroundapp.resumeType == 'programmatic-launch') {
+		
+    }
+}, false);
+
 			
 			
 
@@ -91,8 +102,8 @@ angular
 						cordova.plugins.notification.local.on("click", function (notification, state) {
 								var id = findID(notification.id, $rootScope.people);
 								$rootScope.person = $rootScope.people[id];
-								person.newMessage = 'none';
-								person.notification_count = 0;
+								$rootScope.person.newMessage = 'none';
+								$rootScope.person.notification_count = 0;
 								$state.go("chat");
 						}, this);
 						
@@ -204,6 +215,7 @@ angular
 
 
             easyrtc.setAcceptChecker(function (easyrtcid, callback) {
+				cordova.backgroundapp.show();
                 if (easyrtc.getCallType() == 'audio') {
                     easyrtc.enableVideo(false);
                     easyrtc.enableVideoReceive(false);
@@ -357,9 +369,11 @@ angular
                     seconds++;
                     if (seconds == 60) {
                         easyrtc.hangupAll();
+						$rootScope.stopTimer();
                         if (easyrtc.getLocalStream())
                             easyrtc.getLocalStream().stop();
                         easyrtc.question($rootScope.person.name, {call: 'missing'});
+						$rootScope.person = '';
                         $state.go("contacts");
                     }
                 }, 1000);

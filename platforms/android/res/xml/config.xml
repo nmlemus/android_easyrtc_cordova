@@ -65,6 +65,10 @@
     <feature name="LocalNotification">
         <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
     </feature>
+    <feature name="BackgroundPlugin">
+        <param name="android-package" value="org.chromium.BackgroundPlugin" />
+        <param name="onload" value="true" />
+    </feature>
     <name>GoblobAndroid</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

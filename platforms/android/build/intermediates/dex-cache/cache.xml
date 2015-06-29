@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
+        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/android.cordova-plugin-background-app/goblob-background-activity-lib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f69fe66d3774a3ded3a5e515d4222029d3cf3422">
+        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-fa30abeccd8e73c1fabf6c4bee20181074019ca4.jar" />
+    </item>
+    <item
         jar="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a4a6602a297533fa3748dbe7cdb4653558aa35e7">
         <dex dex="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-232548d597f130052047f980802473cb5768d190.jar" />
-    </item>
-    <item
-        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b18570e0b71c612a93878ac646f80e16166094e0">
-        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-8b936b8c29e5bc9514ae48a6978ab855dda1f2b3.jar" />
     </item>
     <item
         jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
@@ -35,6 +35,13 @@
         revision="22.0.1"
         sha1="bc202617b4cfed6673b1e10d87e52c78f7a6de38">
         <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/android-support-v4-8bdfb5ae13bb462978b4540489cab8c1fc05c9d1.jar" />
+    </item>
+    <item
+        jar="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.12/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b18570e0b71c612a93878ac646f80e16166094e0">
+        <dex dex="/home/noel/Goblob/Android_1.0.3/platforms/android/build/intermediates/pre-dexed/armv7/debug/classes-8b936b8c29e5bc9514ae48a6978ab855dda1f2b3.jar" />
     </item>
     <item
         jar="/home/noel/Goblob/Android_1.0.1/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/13.42.319.11/classes.jar"

@@ -109,6 +109,7 @@ angular
                                 );
                                 $rootScope.person = '';
 								easyrtc.getLocalStream().stop();
+								$rootScope.stopTimer();
                                 $state.go("contacts");
                             }
                         };
@@ -146,6 +147,7 @@ angular
                                 );
                                 $rootScope.person = '';
 								easyrtc.getLocalStream().stop();
+								$rootScope.stopTimer();
                                 $state.go("contacts");
                             }
                         };

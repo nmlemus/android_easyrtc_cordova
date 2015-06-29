@@ -249,6 +249,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile project(path: ":CordovaLib", configuration: "debug")
     releaseCompile project(path: ":CordovaLib", configuration: "release")
+    debugCompile project(path: ":cordova-plugin-background-app:goblob-background-activity-lib", configuration: "debug")
+    releaseCompile project(path: ":cordova-plugin-background-app:goblob-background-activity-lib", configuration: "release")
     // SUB-PROJECT DEPENDENCIES END
 }
 

@@ -40,15 +40,12 @@
         android:label="@string/app_name" >
         <activity
             android:name="com.goblob.GoblobAndroid"
+            android:allowTaskReparenting="true"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:exported="true"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service android:name="de.appplant.cordova.plugin.background.ForegroundService" />
@@ -84,6 +81,26 @@
             android:name="de.appplant.cordova.plugin.notification.ClickActivity"
             android:exported="false"
             android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <activity
+            android:name="org.chromium.BackgroundLauncherActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=".launcher"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter android:label="app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.chromium.BackgroundActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity=".cordovabackground"
             android:theme="@android:style/Theme.NoDisplay" />
     </application>
 

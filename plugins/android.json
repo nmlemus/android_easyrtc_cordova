@@ -96,6 +96,12 @@
                             "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
                             "count": 1
                         }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"BackgroundPlugin\"><param name=\"android-package\" value=\"org.chromium.BackgroundPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -189,6 +195,14 @@
                         {
                             "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.notification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<activity android:excludeFromRecents=\"true\" android:name=\"org.chromium.BackgroundLauncherActivity\" android:taskAffinity=\".launcher\" android:theme=\"@android:style/Theme.NoDisplay\"><intent-filter android:label=\"@string/launcher_name\"><action android:name=\"android.intent.action.MAIN\" /><category android:name=\"android.intent.category.LAUNCHER\" /></intent-filter></activity>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:alwaysRetainTaskState=\"true\" android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:excludeFromRecents=\"true\" android:exported=\"false\" android:launchMode=\"singleTop\" android:name=\"org.chromium.BackgroundActivity\" android:taskAffinity=\".cordovabackground\" android:theme=\"@android:style/Theme.NoDisplay\"></activity>",
+                            "count": 1
                         }
                     ]
                 }
@@ -257,6 +271,9 @@
             "PACKAGE_NAME": "com.goblob"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.goblob"
+        },
+        "cordova-plugin-background-app": {
             "PACKAGE_NAME": "com.goblob"
         }
     },

@@ -25,6 +25,7 @@ angular
 					easyrtc.question($rootScope.person.name, {call: 'missing'});
                 if(easyrtc.getLocalStream())
                     easyrtc.getLocalStream().stop();
+				$rootScope.person = '';
                 $state.go("contacts");
             }
    }
