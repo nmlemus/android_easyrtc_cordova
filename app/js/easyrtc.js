@@ -4691,6 +4691,9 @@ var Easyrtc = function() {
                         });
                     }else if(msgData.call){
                         calltype = msgData.call;
+                        if(msgData.call == "missing"){
+                            self.onStreamClosed();
+                        }
                     }
                     break;
                 default:
@@ -4707,10 +4710,14 @@ var Easyrtc = function() {
             if (preallocatedSocketIo) {
                 self.webSocket = preallocatedSocketIo;
             }
-            else if (!self.webSocket) {
+            else {
                 try {
                     connectionOptions.query = 'username=' + self.username;
-                    self.webSocket = io.connect(serverPath, connectionOptions);
+                    self.webSocket = io.connect(serverPath, {
+            'connect timeout': 10000,
+            'force new connection': true,
+			'query': 'username=' + self.username
+        });
                 } catch (socketErr) {
                     errorCallback(self.errCodes.SYSTEM_ERROR,
                         socketErr.toString());
@@ -4720,15 +4727,7 @@ var Easyrtc = function() {
                     throw "io.connect failed";
                 }
             }
-            else {
-                for (i in self.websocketListeners) {
-                    if (!self.websocketListeners.hasOwnProperty(i)) {
-                        continue;
-                    }
-                    self.webSocket.removeEventListener(self.websocketListeners[i].event,
-                        self.websocketListeners[i].handler);
-                }
-            }
+          
             self.websocketListeners = [];
             function addSocketListener(event, handler) {
                 self.webSocket.on(event, handler);
@@ -5673,10 +5672,10 @@ var Easyrtc = function() {
                 self.showError("Developer error", "Your HTML has not included the socket.io.js library");
             }
 
-            if (!preallocatedSocketIo && self.webSocket) {
+           /* if (!preallocatedSocketIo && self.webSocket) {
                 console.error("Developer error: attempt to connect when already connected to socket server");
                 return;
-            }
+            }*/
             pc_config = {};
             closedChannel = null;
             oldConfig = {}; // used internally by updateConfiguration

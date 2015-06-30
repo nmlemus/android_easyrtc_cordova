@@ -44,25 +44,15 @@ angular
 
 
 
-document.addEventListener("resume", function() {
-    if (cordova.backgroundapp.resumeType == 'normal-launch') {
-		
-    } else if (cordova.backgroundapp.resumeType == 'programmatic-launch') {
-		
-    }
-}, false);
-
-			
-			
-
             $rootScope.people = [];
 
             var callinprogress = false;
 
             if ($rootScope.phonenumber) {
-
-                var SERVER_IP = 'goblob.com';
-                var SERVER_PORT = 443;
+                $state.go("contacts").then(function () {
+				
+                var SERVER_IP = '192.168.223.1';
+                var SERVER_PORT = 3000;
 
                 easyrtc.setSocketUrl("https://" + SERVER_IP + ":" + SERVER_PORT, {
                     host: SERVER_IP
@@ -150,9 +140,7 @@ document.addEventListener("resume", function() {
                     if (!$rootScope.$$phase)
                         $rootScope.$apply();
                 });
-
-
-                $state.go("contacts");
+				});
             } else {
                 $state.go("register");
             }
@@ -210,7 +198,7 @@ document.addEventListener("resume", function() {
             function loginFailure(errorCode, message) {
                 console.log("disconnected");
                 alert(message);
-                $state.go("register");
+			    $state.go("home", {phonenumber:$rootScope.phonenumber});
             }
 
 
